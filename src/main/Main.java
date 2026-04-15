@@ -7,7 +7,7 @@ import ejercicio2.*;
 import ejercicio3.*;
 import ejercicio4.*;
 import ejercicio5.*;
-
+import ejercicio6.*;
 
 public class Main {
 
@@ -63,6 +63,14 @@ public class Main {
 		
 		
 		
+		// EJERCICIO 6
+		System.out.println("-----------------------------------------");
+		Perro dog= new Perro("PELUSA","CANICHE","CROQUETAS");
+		System.out.println("NOMBRE: "+dog.getNombre());
+		System.out.println("ESPECIE: "+dog.getEspecie());
+		System.out.println("COMER: "+dog.getComer());
+		dog.hacerSonido();
+		System.out.println("-----------------------------------------");
 		
 		
 		
