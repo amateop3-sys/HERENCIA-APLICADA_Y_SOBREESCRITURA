@@ -5,6 +5,9 @@ import java.util.Scanner;
 import ejercicio1.*; // llama a todas las clases dentro del paquete
 import ejercicio2.*;
 import ejercicio3.*;
+import ejercicio4.*;
+
+
 
 public class Main {
 
@@ -38,9 +41,13 @@ public class Main {
 		System.out.println("-----------------------------------------");
 		
 		
-		
-		
-		
+		// EJERCICIO 4
+		System.out.println("-----------------------------------------");
+		Transporte tr= new Transporte(55);
+		Bus b= new Bus( 75,"INTERAMERICANA");
+		tr.descripcion();
+		b.descripcion();
+		System.out.println("-----------------------------------------");
 		
 		
 		
