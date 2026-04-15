@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import ejercicio1.*; // llama a todas las clases dentro del paquete
 import ejercicio2.*;
+import ejercicio3.*;
 
 public class Main {
 
@@ -30,6 +31,11 @@ public class Main {
 		System.out.println("-----------------------------------------");
 		
 
+		// EJERCICIO 3
+		System.out.println("-----------------------------------------");
+		ProductoPerecedero prod= new ProductoPerecedero("CAFÉ", "14/02/2027");
+		prod.estaVencido();
+		System.out.println("-----------------------------------------");
 		
 		
 		
