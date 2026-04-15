@@ -6,7 +6,7 @@ import ejercicio1.*; // llama a todas las clases dentro del paquete
 import ejercicio2.*;
 import ejercicio3.*;
 import ejercicio4.*;
-
+import ejercicio5.*;
 
 
 public class Main {
@@ -50,6 +50,16 @@ public class Main {
 		System.out.println("-----------------------------------------");
 		
 		
+		
+		// EJERCICIO 5
+		System.out.println("-----------------------------------------");
+		Empleado em= new Empleado("CARLOS", 55.22);
+		Gerente ger= new Gerente("MARIO", 885.22, 500);
+		System.out.println(em.getNombre());
+		System.out.println(em.calcularSalario());
+		System.out.println(ger.getNombre());
+		System.out.println(ger.calcularSalario());
+		System.out.println("-----------------------------------------");	
 		
 		
 		
