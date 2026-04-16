@@ -10,7 +10,7 @@ import ejercicio5.*;
 import ejercicio6.*;
 import ejercicio7.*;
 import ejercicio8.*;
-
+import ejercicio9.*;
 
 
 public class Main {
@@ -98,9 +98,14 @@ public class Main {
 		
 		
 		
-		
-		
-		
+		// EJERCICIO 9
+		System.out.println("-----------------------------------------");
+		Libro lib1= new Libro("100 años de soledad","Gabriel García Márquez");
+		lib1.mostrarInfo();
+		System.out.println("-----------------------------------------");
+		LibroDigital ligit= new LibroDigital("Tu pez interior","Neil Shubin",5.09);
+		ligit.mostrarInfo();
+		System.out.println("-----------------------------------------");
 		
 		
 		
