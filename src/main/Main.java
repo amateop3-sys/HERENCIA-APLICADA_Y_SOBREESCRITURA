@@ -1,6 +1,6 @@
 package main;
 
-import java.util.Scanner;
+import java.util.Scanner; // para entrada de texto
 
 import ejercicio1.*; // llama a todas las clases dentro del paquete
 import ejercicio2.*;
@@ -8,6 +8,7 @@ import ejercicio3.*;
 import ejercicio4.*;
 import ejercicio5.*;
 import ejercicio6.*;
+import ejercicio7.*;
 
 public class Main {
 
@@ -74,8 +75,11 @@ public class Main {
 		
 		
 		
-		
-		
+		// EJERCICIO 7
+		System.out.println("-----------------------------------------");
+		Vehiculo v1= new Moto("HONDA", 400.5, 600);
+		v1.mostrarInfo();
+		System.out.println("-----------------------------------------");
 		
 		
 		
