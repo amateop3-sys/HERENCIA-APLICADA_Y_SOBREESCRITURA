@@ -9,6 +9,9 @@ import ejercicio4.*;
 import ejercicio5.*;
 import ejercicio6.*;
 import ejercicio7.*;
+import ejercicio8.*;
+
+
 
 public class Main {
 
@@ -80,6 +83,24 @@ public class Main {
 		Vehiculo v1= new Moto("HONDA", 400.5, 600);
 		v1.mostrarInfo();
 		System.out.println("-----------------------------------------");
+		
+		
+		
+		// EJERCICIO 8
+		System.out.println("-----------------------------------------");
+		Figura fi1= new Rectangulo(25.2, 45.22);
+		System.out.println("AREA RECTANGULO: "+fi1.calcularArea());
+
+		Figura cir1= new Circulo(45.22);
+		System.out.println("AREA CIRCULO: "+cir1.calcularArea());
+		System.out.println("-----------------------------------------");
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
