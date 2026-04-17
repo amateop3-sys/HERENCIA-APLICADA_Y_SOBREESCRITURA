@@ -11,7 +11,7 @@ import ejercicio6.*;
 import ejercicio7.*;
 import ejercicio8.*;
 import ejercicio9.*;
-
+import ejercicio10.*;
 
 public class Main {
 
@@ -109,8 +109,17 @@ public class Main {
 		
 		
 		
-		
-		
+		// EJERCICIO 10
+		System.out.println("-----------------------------------------");
+		Cliente c1= new Cliente("JUAN PABLO","01259685");
+		FacturaContado fc1= new FacturaContado(001,c1, 8000, 333);
+		System.out.println(c1);
+		System.out.println(fc1);
+		System.out.println("-----------------------------------------");
+		FacturaCredito fct1= new FacturaCredito(002,c1, 9000, 400,200);
+		System.out.println(c1);
+		System.out.println(fct1);
+		System.out.println("-----------------------------------------");
 		
 		
 
